@@ -1,0 +1,44 @@
+    <table id="myTable" class="table">
+        <thead>
+            <tr>
+                <th>aa</th>
+                <th>ab</th>
+                <th>ac</th>
+                <th>ad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>asas</td>
+                <td>asasa</td>
+                <td>asaaasa</td>
+                <td>fdfdfg</td>
+            </tr>
+            <tr>
+                <td>asas</td>
+                <td>asasa</td>
+                <td>asaaasa</td>
+                <td>fdfdfg</td>
+            </tr>
+            <tr>
+                <td>aslam</td>
+                <td>asasa</td>
+                <td>asaaasa</td>
+                <td>fdfdfg</td>
+            </tr>
+        </tbody>
+    </table>   
+</body>
+</html>
+
+<link href="//cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+
+    
+    <script src="//cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+
+<script>
+         $(document).ready(function () {            
+             $("#myTable").DataTable();
+         });
+</script>
